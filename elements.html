@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mylib. Главная страница</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <header class="header">
+        <a href="index.html" class="logo">MYLIB</a>
+          <ul class="nav">
+            <li><a href="elements.html" class="visit-now">Elements</a></li>
+            <li><a href="components.html">Components</a></li>
+            <li><a href="layouts.html">Layouts</a></li>
+              <li><a href="links.html">Links</a></li>
+          </ul>
+    </header>
+  <main class="main">
+        <div class="sidebar">
+          <div class="sticky-nav">
+          <ul class="sidebar-nav">
+            <li><a href="#typography">Typography</a></li>
+            <li><a href="#form-elements">Form elements</a></li>
+            <li><a href="#input-forms">Input forms</a></li>
+          </ul>
+        </div>
+      </div>
+        <div class="content">
+          <h2 id="typography" class="border-line-bottom">Typography</h2>
+          <div class="sticker-extralarge"> 
+            <span class="info-stick">base font size 16px</span>
+            <span class="info-stick">line-height 1.3</span>
+            <span class="info-stick">scale factor 1.5</span>
+          </div>
+          <h3 class="borderline-bottom">Headings</h3>
+          <h1 class="h1">Headline h1</h1>
+          <h2 class="h2">Headline h2</h2>
+          <h3 class="h3">Headline h3</h3>
+          <h4 class="h4">Headline h4</h4>
+          <h5 class="h5">Headline h5</h5>
+          <h6 class="h6">Headline h6</h6>
+          <div class="box">
+       	    <span class="box-title">HTML</span>
+           	<div class="sticker-large">
+       				<span class="info-stick-html">&lt;h1 class=”h1”&gt;Headline h1&lt;/h1&gt;</span>
+			        <span class="info-stick-html">&lt;h2 class=”h2”&gt;Headline h2&lt;/h2&gt;</span>
+        			<span class="info-stick-html">&lt;h3 class=”h3”&gt;Headline h3&lt;/h3&gt;</span>
+        			<span class="info-stick-html">&lt;h4 class=”h4”&gt;Headline h4&lt;/h4&gt;</span>
+        			<span class="info-stick-html">&lt;h5 class=”h5”&gt;Headline h5&lt;/h5&gt;</span>
+        			<span class="info-stick-html">&lt;h6 class=”h6”&gt;Headline h6&lt;/h6&gt;</span>
+            </div>
+            </div>
+          <div class="box">
+       	      <span class="box-title">CSS</span>
+        	<div class="sticker-large">
+        			<span class="info-stick-html">.h1 {</span>
+        			<span class="info-stick-html indent-small">font: bold 54px/63px Helvetica, Arial, serif;</span>
+        			<span class="info-stick-html indent-small">margin: 24px 0 42px 48px;</span>
+        			<span class="info-stick-html indent-small">color: #131320;</span>
+        			<span class="info-stick-html closing-curly-brace">}</span>
+        			<span class="info-stick-html">.h2 {</span>
+        			<span class="info-stick-html indent-small">font: bold 36px/42px Helvetica, Arial, serif;</span>
+        			<span class="info-stick-html indent-small">margin: 0 0 21px 48px;</span>
+        			<span class="info-stick-html indent-small">color: #131320;</span>
+        			<span class="info-stick-html closing-curly-brace">}</span>
+        			<span class="info-stick-html">.h3 {</span>
+        			<span class="info-stick-html indent-small">font: bold 24px/42px Helvetica, Arial, serif;</span>
+        			<span class="info-stick-html indent-small">margin: 0 0 21px 48px;</span>
+        			<span class="info-stick-html indent-small">color: #000;</span>
+        			<span class="info-stick-html closing-curly-brace">}</span>
+        			<span class="info-stick-html">.h4,.h5,.h6 {</span>
+        			<span class="info-stick-html indent-small">font: bold 16px/21px Helvetica, Arial, serif;</span>
+        			<span class="info-stick-html indent-small">margin: 0 0 21px 48px;</span>
+        			<span class="info-stick-html indent-small">color: #000;</span>
+        			<span class="info-stick-html">}</span>
+       	  </div>
+          </div>
+      	<h2 id="form-elements" class="border-line-bottom">Form elements</h2>
+        <div class="sticker-extralarge"> 
+            <p class="info-stick">The HTML &lt;form> element can contain one or more of the following form elements: &lt;input>, &lt;label>
+            &lt;select>, &lt;textarea>, &lt;button>, &lt;fieldset>, &lt;legend>, &lt;datalist>, &lt;output>, &lt;option>, &lt;optgroup></p>
+        </div>
+        <h3 class="h3">Example 1.</h3>
+        <div class="box">
+             <span class="box-title">HTML</span>
+        <div class="sticker-large">
+             <span class="info-stick-html">&lt;label for="cars">Choose a car:&lt;/label></span>
+             <span class="info-stick-html">&lt;select id="cars" name="cars"></span>
+             <span class="info-stick-html indent-small">&lt;option value="volvo">Volvo&lt;/option></span>
+             <span class="info-stick-html indent-small">&lt;option value="saab">Saab&lt;/option></span>
+             <span class="info-stick-html indent-small">&lt;option value="fiat">Fiat&lt;/option></span>
+             <span class="info-stick-html indent-small">&lt;option value="audi">Audi&lt;/option></span>
+             <span class="info-stick-html">&lt;/select></span>
+        </div>
+        </div>
+        <h3 class="h3">Result</h3>
+        <div class="box">
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+       </div>
+        <h3 class="h3">Example. 2</h3>
+        <div class="box">
+            <span class="box-title">HTML</span>
+        <div class="sticker-large">
+            <span class="info-stick-html">&lt;textarea name="message" rows="10" cols="30"></span>
+            <span>The cat was playing in the garden.</span>
+            <span class="info-stick-html">&lt;/textarea></span>
+        </div>
+        </div>
+        <div class="box">
+            <textarea name="message" rows="10" cols="30">
+            The cat was playing in the garden.
+            </textarea>
+        </div>
+        <h2 id="input-forms" class="border-line-bottom">Input Forms</h2>
+        <div class="sticker-extralarge"> 
+            <span class="info-stick">Here are the different input types you can use in HTML: </span>
+            <ul>
+              <li class="info-stick">&lt;input type="button"></li>
+              <li class="info-stick"> &lt;input type="checkbox"></li>
+              <li class="info-stick">&lt;input type="color"></li>
+              <li class="info-stick">&lt;input type="date"></li>
+              <li class="info-stick">&lt;input type="datetime-local"></li>
+              <li class="info-stick">&lt;input type="email"></li>
+              <li class="info-stick">&lt;input type="file"></li>
+              <li class="info-stick">&lt;input type="hidden"></li>
+              <li class="info-stick">&lt;input type="image"></li>
+              <li class="info-stick">&lt;input type="month"></li>
+              <li class="info-stick">&lt;input type="number"></li>
+              <li class="info-stick">&lt;input type="password"></li>
+              <li class="info-stick">&lt;input type="radio"></li>
+              <li class="info-stick">&lt;input type="range"></li>
+              <li class="info-stick">&lt;input type="range"></li>
+              <li class="info-stick">&lt;input type="search"></li>
+              <li class="info-stick">&lt;input type="search"></li>
+              <li class="info-stick">&lt;input type="search"></li>
+              <li class="info-stick">&lt;input type="search"></li>
+              <li class="info-stick">&lt;input type="search"></li>
+              <li class="info-stick">&lt;input type="search"></li>
+              <li class="info-stick">&lt;input type="search"></li>
+            </ul>
+        </div>
+              <h3 class="h3">Example</h3>
+ <div class="box">
+               <form action="#" method="get" class="commonform">
+          <h1 class="title">Please fill out the form</h1>
+          <label class="label">Full name</label>
+          <input type="text" class="field">
+      <label class="label">Your e-mail address</label>
+      <input type="email" class="field">
+      <label class="label">Your phone number</label>
+      <input type="tel" class="field">
+      <label for="country" class="label">Select your country</label>
+      <select class="field">
+        <option value="UK" selected>UK</option>
+        <option value="USA">USA</option>
+      <option value="Ukraine">Ukraine</option>
+      </select>
+      <label class="method label">I want to attend event</label>
+      <div class="subbuttonhigh">
+      <input type="radio" name="study" id="online" checked>
+        <label for="online">online</label>
+        </div>
+        <div class="subbuttonmid">
+        <input type="radio" name="study" id="offline">
+        <label for="offline">offline</label>
+        </div>
+        <label class="label">Comments</label>
+        <textarea class="field textarea"></textarea>
+        <div class="subbuttonlow">
+        <input type="checkbox" id="policy">
+        <label for="policy">I agree with <a href="#" class="link">the privacy policy</a></label>
+        </div>
+        <input type="reset" value="Clear form" class="clearbut button">
+        <input type="submit" value="Submit form" class="submitbut button">
+          </form>
+     </div>
+   </div>
+   </main> 
+  </body>
+
+</html>

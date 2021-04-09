@@ -1,0 +1,561 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,
+*:before,
+*:after {
+ box-sizing: border-box;
+ text-decoration: none;
+}
+
+body {
+	background: #fff;
+	min-width: 1280px;
+
+}
+.index-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  width: 790px;
+	margin: 0 auto;
+}
+
+.prime-sticker, .prime-sticker-medium, .sticker-extralarge {
+    background: #768C64;
+    color: #fff;
+    font: 16px/21px Courier, Arial, serif;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    position: relative;
+}
+
+.prime-sticker, .sticker, .prime-sticker-medium, .sticker-medium {
+ box-shadow: -7px 9px 10px rgba(0,0,0,0.5);
+}
+
+.sticker, .sticker-medium, .sticker-large, .sticker-large-css {
+    background: #C0C89D;
+    color: #434445;
+    font: 16px/21px Courier, Arial, serif;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px; 
+    position: relative;
+}
+.sticker, .prime-sticker {
+    height: 240px;
+    width: 240px;
+}
+
+.prime-sticker span  {
+	padding: 9px 5px 9px 0;
+}
+
+.prime-sticker span  {
+  margin-left: 32px;
+}
+
+.prime-sticker span:first-of-type {
+  padding-top: 32px;
+
+}
+.info-prime-sticker, .info-sticker, .prime-sticker-medium, .sticker-medium {
+	padding: 32px;
+
+}
+.prime-sticker:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid #768C64;
+    width: 0;
+}
+
+.sticker:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid #C0C89D;
+    width: 0;
+}
+
+.sticker span {
+	padding-bottom:2px;
+	position: relative;
+}
+
+.indent-small {
+	padding-left: 20px;
+}
+
+.indent-medium {
+	padding-left: 50px;
+}
+
+.pad span:nth-of-type(2n) {
+	padding-bottom: 22px;
+}
+
+.pad span:last-of-type {
+	padding-bottom: 0px;
+}
+.small-sticks {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	flex-basis: 790px;
+}
+
+.sticker-medium, .prime-sticker-medium {
+    height: 240px;
+    width: 796px;
+}
+
+.prime-sticker-medium:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid #768C64;
+    width: 0;
+}
+
+.prime-sticker-medium span, .sticker-medium span, .sticker-large span, .prime-sticker span, .sticker span {
+	display: block;
+	z-index:1;
+}
+
+.sticker-extralarge a {
+  display: block;
+  color: #fff;
+  padding: 10px;
+}
+
+.sticker-extralarge a:hover {
+   color: #000;
+   text-decoration: underline;
+}
+
+ul.link-list {
+list-style-type: circle;
+padding-left:  90px;
+}
+
+.prime-sticker-medium span:first-of-type {
+	padding-bottom: 20px;
+
+}
+
+.sticker-medium:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid #C0C89D;
+    width: 0;
+}
+
+section {
+	padding: 0 0 48px 0;
+}
+
+.header {
+	padding: 24px 48px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 0 10px rgba(106,117,202,0.5);
+}
+
+.header a:hover {
+	text-decoration: underline;
+}
+
+a.logo {
+	font: bold 24px/32px Helvetica, Arial, sans-serif;
+	min-width: 230px;
+	color: #5D6859;
+}
+
+.nav a {
+	color: #131320;
+	font: bold 16px/32px Helvetica, Arial, sans-serif;
+	margin-left: 32px;
+}
+
+.nav {
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-start;
+}
+
+.tagline {
+	color: #131320;
+	font: bold 54px/63px Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding: 100px 20px;
+}
+
+header {
+	position: sticky;
+	z-index: 2;
+	top: 0;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+ }
+
+.sidebar {
+  flex: 0 0 240px;
+  background: #5D6859;
+  padding: 32px 30px 0 48px;
+
+}
+
+.content {
+  flex-grow: 1;
+}
+
+a.visit-now  {
+	color: #4b6e4b;
+}
+
+.sidebar a {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.sidebar a:hover:before {
+	content: '• ';
+}
+
+.sidebar-nav li {
+	font: 16px/32px Helvetica, Arial, sans-serif;
+	padding-bottom: 16px;
+}
+
+.border-line-bottom {
+  border-bottom: 1px solid #131320;
+}
+
+.content .border-line-bottom  {
+  	font: bold 36px/42px Helvetica, Arial, sans-serif;
+  	color: #131320;
+  	/*padding: 24px 48px;*/ /*убрал отсюда т.к. не выходило нормально выровнять якорь*/
+}
+ 
+.sticker-extralarge {
+	height: auto;
+    width: 796px;
+    background: #768C64 left 4% top 50% no-repeat url("../img/info.svg");
+    position: relative;
+    margin: 24px 48px;
+    padding: 15px;
+}
+
+.sticker-extralarge:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid #768C64;
+    width: 0;
+}
+
+.info-stick {
+	display: block;
+	padding: 5px 60px 0 80px;
+}
+
+.content .borderline-bottom {
+  	border-bottom: 1px solid #131320;
+  	font: bold 24px/32px Helvetica, Arial, sans-serif;
+  	color: #131320;
+  	padding: 0 0 23px 0;
+  	margin: 0 48px 0 48px;
+}
+
+.h1 {
+	font: bold 54px/63px Helvetica, Arial, serif;
+	margin: 24px 48px 42px 48px;
+	color: #131320;
+}
+
+.h2 {
+	font: bold 36px/42px Helvetica, Arial, serif;
+	margin: 0 48px 21px 48px;
+	color: #131320;
+}
+
+.h3 {
+	font: bold 24px/42px Helvetica, Arial, serif;
+	margin: 0 48px 21px 48px;
+  	color: #000;
+}
+
+.h4,.h5,.h6 {
+	font: bold 16px/21px Helvetica, Arial, serif;
+	margin: 0 48px 21px 48px;
+  color: #000;
+}
+
+.box {
+  height: auto;
+  width: 796px;
+  margin: 0 48px 35px 48px; 
+  border-radius: 8px;
+  border: solid 1px #768C64;
+  position: relative;
+  padding: 10px;
+}
+
+.box-title {
+  font: bold 12px/21px Helvetica, Arial, serif;
+  color: #ffc806;
+  background: #fff;
+  padding: 11px 8px 9px 8px;
+  position: absolute;
+  left: 15px;
+  top: -22px;
+}
+
+.sticker-large {
+  	height: auto;
+    width: auto;
+    padding: 24px;
+}
+
+.sticker-large:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid #fff;
+    border-left: 80px solid  #C0C89D;
+    width: 0;
+}
+
+.info-stick-html span:first-of-type {
+  padding-top: 48px;
+}
+
+/* начало шеврон-меню */
+.chevron-nav {
+  padding: 28px 48px;
+  max-width: 896px;
+}
+.chevron-nav-list {
+  background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 127.92%);
+  text-align: right;
+  list-style: none; 
+  padding: 2px 10px;
+}
+
+.chevron-nav-item a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 30px 25px 29px;
+  background: #fff;
+  position: relative;
+  text-transform: uppercase;
+  font: 32px/37px Helvetica, Arial, sans-serif;
+}
+
+.chevron-nav-list li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.chevron-nav-item a:before {
+  content: "";
+  height: 0px;
+  width: 0px;
+  border-width: 48px 0 48px 25px;
+  border-style: solid;
+  border-color: #fff transparent #fff transparent;
+  position: absolute;
+  left: -25px;
+  top: 0;
+}
+
+.chevron-nav-item a:after {
+  content: "";
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 48px 0 48px 25px;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  right: -25px;
+  top: 0;
+}
+
+.chevron-nav-item a:hover {
+  background: rgba(255, 255, 255, .7);
+}
+
+.chevron-nav-item a:hover:before {
+  border-color: rgba(255, 255, 255, .7) transparent rgba(255, 255, 255, .7) transparent;
+}
+
+.chevron-nav-item a:hover:after {
+  border-color: transparent transparent transparent rgba(255, 255, 255, .7);
+}
+/*конец шеврон меню */
+
+.images {
+	margin-left: 48px;
+	margin-bottom: 20px;
+	border: 1px solid #768C64;
+	border-radius: 8px;
+	display: block;
+}
+/* начало элемента форм*/ 
+.commonform {
+  color: #000;
+  font-family: Arial;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 32px;
+  margin: 50px 0;
+  font-weight: 400;
+}
+
+.label {
+  font-size: 20px;
+  display: block;
+  font-weight: 400;
+}
+
+.method {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.field {
+  width: 700px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  border: 2px solid #808080;
+  padding: 0 10px;
+  font-size: 24px;
+  margin: 11px 0 35px;
+}
+
+.subbuttonhigh {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.subbuttonmid {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.subbuttonlow {
+  font-size: 20px;
+  margin-bottom: 47px;
+}
+
+.button {
+  width: 300px;
+  height: 75px;
+  font-size: 24px;
+}
+.submitbut {
+  color: #fff;
+  background: #000;
+  border-radius: 8px;
+  border: 0px solid;
+}
+.clearbut {
+  color: #9a9a9a;
+  background: #e6e6e6;
+  border-radius: 8px;
+  border: 0px solid;
+  margin-right: 80px;
+}
+/* конец элементов форм*/
+
+.sticky-nav {
+  position: fixed;
+  top: 80px;
+  left: 48px;
+  padding-top: 32px;
+  background: #5D6859;
+  z-index: 5;
+}
+/* чтобы заголовок не прятался за header при нажатии на якорь*/
+h2.border-line-bottom:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -104px; 
+  height: 104px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+
+h2.border-line-bottom {
+  padding-left: 48px;
+  margin-top: 24px;
+  padding-bottom: 24px;
+}
+
+.closing-curly-brace {
+	padding-bottom: 21px;
+}

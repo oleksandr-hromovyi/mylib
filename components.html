@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mylib. Главная страница</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+  <header class="header">
+        <a href="index.html" class="logo">MYLIB</a>
+          <ul class="nav">
+            <li><a href="elements.html">Elements</a></li>
+            <li><a href="components.html" class="visit-now">Components</a></li>
+            <li><a href="layouts.html">Layouts</a></li>
+              <li><a href="links.html">Links</a></li>
+           </ul>
+       </header>
+         <main class="main">
+            <div class="sidebar">
+              <div class="sticky-nav">
+            <ul class="sidebar-nav">
+              <li><a href="#chevron">chevron menu</a></li>
+            <!--
+              <li><a href="#dropdown-menu">dropdown menu</a></li>
+              <li><a href="#modal-box">modal box</a></li>
+              <li><a href="#allerts">allerts</a></li>
+            -->
+          </ul>
+        </div>
+        </div>
+           <div class="content">
+          <h2 id="typography" class="border-line-bottom">Chevron menu</h2>
+          <div class="sticker-extralarge"> 
+            <span class="info-stick">Possible to use on gradient background</span>
+            <span class="info-stick">Easy to use opacity for items background</span>
+            <span class="info-stick">Cross-browser</span>
+          </div>
+
+          <nav class="chevron-nav">
+          <ul class="chevron-nav-list">
+            <li class="chevron-nav-item">
+              <a href="#">about</a>
+            </li>
+            <li class="chevron-nav-item">
+              <a href="#">careers</a>
+            </li>
+            <li class="chevron-nav-item">
+              <a href="#">faq</a>
+            </li>
+            </ul>
+        </nav>
+       <div class="box">
+        <span class="box-title">HTML</span>
+        <div class="sticker-large">
+          <span class="info-stick-html">&lt;nav class="chevron-nav"&gt;</span>
+          <span class="info-stick-html">&lt;ul class=”chevron-nav-list”&gt;</span>
+    <span class="info-stick-html indent-small">&lt;li class="chevron-nav-item"&gt;&lt;a href=”#”&gt;About&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="info-stick-html indent-small">&lt;li class="chevron-nav-item"&gt;&lt;a href=”#”&gt;Careers&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="info-stick-html indent-small">&lt;li class="chevron-nav-item"&gt;&lt;a href=”#”&gt;FAQ&lt;/a&gt;&lt;/li&gt;</span>
+  <span class="info-stick-html">&lt;/ul&gt;</span>
+      <span class="info-stick-html">&lt;/nav&gt;</span>
+        </div>
+       </div>
+      
+       <div class="box">
+       	<span class="box-title">CSS</span>
+       	<div class="sticker-large">
+			<span class="info-stick-html">.chevron-nav {</span>
+			<span class="info-stick-html indent-small"> padding: 28px 0px 61px 48px;</span>
+			<span class="info-stick-html indent-small"> max-width: 896px;</span>
+			<span class="info-stick-html closing-curly-brace">}</span>
+			<span class="info-stick-html">.chevron-nav-list {</span>
+			<span class="info-stick-html indent-small">background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 127.92%);</span>
+			<span class="info-stick-html indent-small">text-align: right;</span>
+			<span class="info-stick-html indent-small">list-style: none; </span>
+			<span class="info-stick-html indent-small">padding: 2px 10px;</span>
+			<span class="info-stick-html closing-curly-brace">}</span>
+			<span class="info-stick-html">.chevron-nav-item a {</span>
+			<span class="info-stick-html indent-small"> display: inline-block;</span>
+			<span class="info-stick-html indent-small"> text-decoration: none;</span>
+			<span class="info-stick-html indent-small">color: #000;</span>
+			<span class="info-stick-html indent-small"> padding: 30px 25px 29px;</span>
+			<span class="info-stick-html indent-small">background: #fff;</span>
+			<span class="info-stick-html indent-small">position: relative;</span>
+			<span class="info-stick-html indent-small">text-transform: uppercase;</span>
+			<span class="info-stick-html indent-small">font: 32px/37px Helvetica, Arial, sans-serif;</span>
+			<span class="info-stick-html closing-curly-brace">}</span>
+			<span class="info-stick-html">.chevron-nav-list li {</span>
+			<span class="info-stick-html indent-small"> display: inline-block;</span>
+			<span class="info-stick-html indent-small">margin: 0 25px;</span>
+			<span class="info-stick-html closing-curly-brace">}</span>
+			<span class="info-stick-html">.chevron-nav-item a:before {</span>
+			<span class="info-stick-html indent-small"> content: "";</span>
+			<span class="info-stick-html indent-small"> height: 0px;</span>
+			<span class="info-stick-html indent-small">width: 0px;</span>
+			<span class="info-stick-html indent-small"> border-width: 48px 0 48px 25px;</span>
+			<span class="info-stick-html indent-small"> border-style: solid;</span>
+			<span class="info-stick-html indent-small">border-color: #fff transparent #fff transparent;</span>
+			<span class="info-stick-html indent-small">position: absolute;</span>
+			<span class="info-stick-html indent-small"> left: -25px;</span>
+			<span class="info-stick-html indent-small"> top: 0;</span>
+			<span class="info-stick-html closing-curly-brace">}</span>
+			<span class="info-stick-html">.chevron-nav-item a:after {</span>
+			<span class="info-stick-html indent-small"> content: "";</span>
+			<span class="info-stick-html indent-small"> height: 0;</span>
+			<span class="info-stick-html indent-small">width: 0;</span>
+			<span class="info-stick-html indent-small">border-style: solid;</span>
+			<span class="info-stick-html indent-small">border-width: 48px 0 48px 25px;</span>
+			<span class="info-stick-html indent-small">border-color: transparent transparent transparent #fff;</span>
+			<span class="info-stick-html indent-small"> position: absolute;</span>
+			<span class="info-stick-html indent-small">right: -25px;</span>
+			<span class="info-stick-html indent-small"> top: 0;</span>
+			<span class="info-stick-html closing-curly-brace">}</span>
+			<span class="info-stick-html">.chevron-nav-item a:hover {</span>
+			<span class="info-stick-html indent-small">background: rgba(255, 255, 255, .7);</span>
+			<span class="info-stick-html closing-curly-brace">}</span>
+			<span class="info-stick-html">.chevron-nav-item a:hover:before {</span>
+			<span class="info-stick-html indent-small"> border-color: rgba(255, 255, 255, .7) transparent rgba(255, 255, 255, .7) transparent;</span>
+			<span class="info-stick-html closing-curly-brace">}</span>
+			<span class="info-stick-html">.chevron-nav-item a:hover:after {</span>
+			<span class="info-stick-html indent-small"> border-color: transparent transparent transparent rgba(255, 255, 255, .7);</span>
+			<span class="info-stick-html">}</span>
+       	</div>
+        </div>
+    </div>
+    </main>
+  </body>
+</html>

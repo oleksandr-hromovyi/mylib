@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mylib. Главная страница</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+  <header class="header">
+        <a href="index.html" class="logo">MYLIB</a>
+          <ul class="nav">
+            <li><a href="elements.html">Elements</a></li>
+            <li><a href="components.html">Components</a></li>
+            <li><a href="layouts.html" class="visit-now">Layouts</a></li>
+              <li><a href="links.html">Links</a></li>
+            
+          </ul>
+       </header>
+         <main class="main">
+            <div class="sidebar">
+              <div class="sticky-nav">
+              <ul class="sidebar-nav">
+              <li><a href="#normal-flow">Normal Flow</a></li>
+              <li><a href="#flexbox">Flexbox</a></li>
+              <li><a href="#float">Float</a></li>
+              <!--
+              <li><a href="#positioning">Positioning</a></li>
+          -->
+          </ul>
+        </div>
+      </div>
+           <div class="content">
+          <h2 id="normal-flow" class="border-line-bottom">Normal Flow</h2>
+          <div class="sticker-extralarge"> 
+            <p class="info-stick">By default, a block level element's content is 100% of the width of its parent element, and as tall as its content. Inline elements are as tall as their content, and as wide as their content. You can't set width or height on inline elements — they just sit inside the content of block level elements. If you want to control the size of an inline element in this manner, you need to set it to behave like a block level element with display: block; (or even,display: inline-block; which mixes characteristics from both.)</p>
+                 </div>
+            <div class="box">
+            <span class="box-title">HTML</span>
+            <div class="sticker-large">
+              <span class="info-stick-html">&lt;h1 class=”h1”&gt;Headline h1&lt;/h1&gt;</span>
+              <span class="info-stick-html">&lt;h2 class=”h2”&gt;Headline h2&lt;/h2&gt;</span>
+              <span class="info-stick-html">&lt;h3 class=”h3”&gt;Headline h3&lt;/h3&gt;</span>
+              <span class="info-stick-html">&lt;h4 class=”h4”&gt;Headline h4&lt;/h4&gt;</span>
+              <span class="info-stick-html">&lt;h5 class=”h5”&gt;Headline h5&lt;/h5&gt;</span>
+              <span class="info-stick-html">&lt;h6 class=”h6”&gt;Headline h6&lt;/h6&gt;</span>
+            </div>
+            </div>
+            <div class="box">
+              <span class="box-title">CSS</span>
+            <div class="sticker-large">
+              <span class="info-stick-html">.h1 {</span>
+              <span class="info-stick-html indent-small">font: bold 54px/63px Helvetica, Arial, serif;</span>
+              <span class="info-stick-html indent-small">margin: 24px 48px 42px 48px;</span>
+              <span class="info-stick-html indent-small">color: #131320;</span>
+              <span class="info-stick-html closing-curly-brace">}</span>
+              <span class="info-stick-html">.h2 {</span>
+              <span class="info-stick-html indent-small">font: bold 36px/42px Helvetica, Arial, serif;</span>
+              <span class="info-stick-html indent-small">margin: 0 48px 21px 48px;</span>
+              <span class="info-stick-html indent-small">color: #131320;</span>
+              <span class="info-stick-html closing-curly-brace">}</span>
+              <span class="info-stick-html">.h3 {</span>
+              <span class="info-stick-html indent-small">font: bold 24px/42px Helvetica, Arial, serif;</span>
+              <span class="info-stick-html indent-small">margin: 0 48px 21px 48px;</span>
+              <span class="info-stick-html indent-small">color: #000;</span>
+              <span class="info-stick-html closing-curly-brace">}</span>
+              <span class="info-stick-html">.h4,.h5,.h6 {</span>
+              <span class="info-stick-html indent-small">font: bold 16px/21px Helvetica, Arial, serif;</span>
+              <span class="info-stick-html indent-small">margin: 0 48px 21px 48px;</span>
+              <span class="info-stick-html indent-small">color: #000;</span>
+              <span class="info-stick-html">}</span>
+            </div>
+            </div>
+          <h2 id="flexbox" class="border-line-bottom">Flexbox</h2>
+          <div class="sticker-extralarge"> 
+            <p class="info-stick">Flexbox is a one-dimensional layout method for laying out items in rows or columns. Items flex to fill additional space and shrink to fit into smaller spaces. </p>
+          </div>
+          <img src="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flex_terms.png" alt="flexbox-scheme" class="images">
+          <img src="img/flex-container.png" alt="flex-container" class="images">
+          <img src="img/flex-item.png" alt="flex-item" class="images">
+          <h2 id="float" class="border-line-bottom">Float</h2>
+          <div class="sticker-extralarge"> 
+            <p class="info-stick">The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow (in contrast to absolute positioning). </p>
+          </div>
+          <div class="box">
+            <span class="box-title">HTML</span>
+          <div class="sticker-large">
+            <span class="info-stick-html"> &lt;section></span>
+            <span class="info-stick-html"> &lt;div class="left">1&lt;/div></span>
+            <span class="info-stick-html">&lt;div class="left">2&lt;/div></span>
+            <span class="info-stick-html">&lt;div class="right">3&lt;/div></span>
+            <span class="info-stick-html"> &lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            <span class="info-stick-html indent-small">Morbi tristique sapien ac erat tincidunt, sit amet dignissim</span>
+            <span class="info-stick-html indent-small">lectus vulputate. Donec id iaculis velit. Aliquam vel</span>
+            <span class="info-stick-html indent-small">malesuada erat. Praesent non magna ac massa aliquet tincidunt</span>
+            <span class="info-stick-html indent-small">vel in massa. Phasellus feugiat est vel leo finibus congue.&lt;/p></span>
+            <span class="info-stick-html">&lt;/section></span>
+          </div>
+          </div>
+          <div class="box">
+            <span class="box-title">CSS</span>
+          <div class="sticker-large">
+            <span class="info-stick-html">section {</span>
+            <span class="info-stick-html indent-small">border: 1px solid blue;</span>
+            <span class="info-stick-html indent-small">width: 100%;</span>
+            <span class="info-stick-html indent-small">float: left;</span>
+            <span class="info-stick-html closing-curly-brace">}</span>
+            <span class="info-stick-html">div {</span> 
+            <span class="info-stick-html indent-small">margin: 5px;</span>
+            <span class="info-stick-html indent-small">width: 50px;</span>
+            <span class="info-stick-html indent-small">height: 150px;</span>
+            <span class="info-stick-html closing-curly-brace">}</span>
+            <span class="info-stick-html">.left {</span>
+            <span class="info-stick-html indent-small">float: left;</span>
+            <span class="info-stick-html indent-small">background: pink;</span>
+            <span class="info-stick-html closing-curly-brace">}</span>
+            <span class="info-stick-html">.right {</span>
+            <span class="info-stick-html indent-small">float: right;</span>
+            <span class="info-stick-html indent-small">background: cyan;</span>
+            <span class="info-stick-html">}</span>
+          </div>
+          </div>
+          <img src="img/float-result.png" alt="float-result" class="images">
+          </div>
+        </main>
+  </body>
+</html>
